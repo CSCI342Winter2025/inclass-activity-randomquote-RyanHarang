@@ -36,9 +36,7 @@ function Quotable() {
   }, []);
 
   const deleteQuote = (indexToDelete) => {
-    console.log(indexToDelete);
     setQuotes(quotes.filter((quotes, index) => index !== indexToDelete));
-    console.log(quotes[indexToDelete]);
   };
 
   return (
